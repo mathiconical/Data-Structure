@@ -8,27 +8,30 @@ int main(){
     /**    ideia to improve this codes, contact me I'll be  **/
     /**    happiness with that. netinho340@gmail.com or     **/
     /**                 jmneto340@gmail.com                 **/
-/*    LinkedList *l = new LinkedList;
+
+/*    LinkedList l;
+
     for(int i = 1; i < 11; i++)
-        l->add(i);
-    l->show();
-    delete l;
+        l.add(i);
+        
+    l.show();
+    
+    cout << "\n\n";
+
+    Stack s;
+    for(int i = 1; i < 11; i++)
+        s.push(i + 10);
+        
+    s.show();
 
     cout << "\n\n";
 
-    Stack *s = new Stack;
+    Queue q;
     for(int i = 1; i < 11; i++)
-        s->push(i + 10);
-    s->show();
-    delete s;
-
-    cout << "\n\n";
-
-    Queue *q = new Queue;
-    for(int i = 1; i < 11; i++)
-        q->enqueue(i + 20);
-    q->show();
-    delete q;
+        q.enqueue(i + 20);
+        
+    q.show();
+    
 */
     return 0;
 }
